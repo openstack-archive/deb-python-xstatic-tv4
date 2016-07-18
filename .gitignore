@@ -5,5 +5,7 @@
 *.egg-info
 .venv
 .tox
+.eggs
+MANIFEST
 build
 dist
