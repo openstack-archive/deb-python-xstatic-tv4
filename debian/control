@@ -1,0 +1,56 @@
+Source: python-xstatic-tv4
+Section: python
+Priority: optional
+Maintainer: PKG OpenStack <openstack-devel@lists.alioth.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>
+Build-Depends: debhelper (>= 9),
+               dh-python,
+               openstack-pkg-tools (>= 52~),
+               python-setuptools,
+               python-all,
+               python3-setuptools,
+               python3-all,
+               yui-compressor,
+Build-Conflicts: python-xstatic,
+                 python3-xstatic
+Standards-Version: 3.9.8
+Vcs-Browser: https://anonscm.debian.org/cgit/openstack/python-xstatic-tv4.git/
+Vcs-Git: https://anonscm.debian.org/git/openstack/python-xstatic-tv4.git
+Homepage: http://geraintluff.github.com/tv4/
+
+Package: python-xstatic-tv4
+Architecture: all
+Depends: libjs-jquery (>= 1.8.0),
+         libjs-tv4,
+         python-xstatic,
+         ${python:Depends},
+         ${misc:Depends}
+Description: tv4 1.2.7 (XStatic packaging standard) - Python 2.7
+ XStatic is a Python web development tool for handling required static data
+ files from external projects, such as CSS, images, and JavaScript. It provides
+ a lightweight infrastructure to manage them via Python modules that your app
+ can depend on in a portable, virtualenv-friendly way instead of using embedded
+ copies.
+ .
+ For a description of tv4, see the libjs-tv4 package.
+ .
+ This package contains the Python 2.7 module.
+
+Package: python3-xstatic-tv4
+Architecture: all
+Depends: libjs-jquery (>= 1.8.0),
+         libjs-tv4,
+         python3-xstatic,
+         ${python3:Depends},
+         ${misc:Depends}
+Description: tv4 (XStatic packaging standard) - Python 3.x
+ XStatic is a Python web development tool for handling required static data
+ files from external projects, such as CSS, images, and JavaScript. It provides
+ a lightweight infrastructure to manage them via Python modules that your app
+ can depend on in a portable, virtualenv-friendly way instead of using embedded
+ copies.
+ .
+ For a description of tv4, see the libjs-tv4 package.
+ .
+ This package contains the Python 3.x module.
+

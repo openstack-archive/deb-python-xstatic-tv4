@@ -1,0 +1,28 @@
+Description: [PATCH] Debianize the package
+Author: Ivan Udovichenko <iudovichenko@mirantis.com>
+Forwarded: not-needed
+Last-Update: 2016-09-15
+
+---
+ xstatic/pkg/tv4/__init__.py | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/xstatic/pkg/tv4/__init__.py b/xstatic/pkg/tv4/__init__.py
+index a0af492..eaf3992 100644
+--- a/xstatic/pkg/tv4/__init__.py
++++ b/xstatic/pkg/tv4/__init__.py
+@@ -34,9 +34,9 @@ HOMEPAGE = 'http://geraintluff.github.com/tv4/'
+ LICENSE = 'https://github.com/geraintluff/tv4/blob/master/LICENSE.txt'
+ 
+ from os.path import join, dirname
+-BASE_DIR = join(dirname(__file__), 'data')
++#BASE_DIR = join(dirname(__file__), 'data')
+ # linux package maintainers just can point to their file locations like this:
+-#BASE_DIR = '/usr/share/javascript/angular-schema-form'
++BASE_DIR = '/usr/share/javascript/angular-schema-form'
+ 
+ LOCATIONS = {
+     # CDN locations (if no public CDN exists, use an empty dict)
+-- 
+2.1.4
+

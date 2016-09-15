@@ -1,0 +1,26 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: XStatic-tv4
+Source: http://geraintluff.github.com/tv4/
+
+Files: debian/*
+Copyright: (c) 2016, Thomas Goirand <zigo@debian.org>
+           (c) 2016, Ivan Udovichenko <iudovichenko@mirantis.com>
+License: public-domain
+
+Files: xstatic/pkg/tv4/data/*
+Copyright: (c) 2013, Danial Farid <danial.farid@gmail.com>
+License: public-domain
+
+Files: *
+Copyright: (c) 2013, Rob Cresswell
+License: public-domain
+
+License: public-domain
+ This code is released into the "public domain" by its author(s).
+ Anybody may use, alter and distribute the code without restriction.
+ The author makes no guarantees, and takes no liability of any kind
+ for use of this code.
+ .
+ If you find a bug or make an improvement, it would be courteous to
+ let the author know, but it is not compulsory.
+
