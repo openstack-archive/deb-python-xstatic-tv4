@@ -3,8 +3,8 @@ Upstream-Name: XStatic-tv4
 Source: http://geraintluff.github.com/tv4/
 
 Files: *
-Copyright: (c) 2013, Rob Cresswell
-           (c) 2010-2014 Google, Inc. http://angularjs.org
+Copyright: (c) 2013, Rob Cresswell <robert.cresswell@outlook.com>
+           (c) 2010-2014, Google Inc. http://angularjs.org
 License: Expat
 
 Files: debian/*
