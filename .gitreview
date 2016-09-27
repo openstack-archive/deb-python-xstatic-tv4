@@ -1,4 +1,5 @@
 [gerrit]
 host=review.openstack.org
 port=29418
-project=openstack/xstatic-tv4.git
+project=openstack/deb-python-xstatic-tv4.git
+defaultbranch=debian/newton

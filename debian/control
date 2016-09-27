@@ -15,8 +15,8 @@ Build-Depends: debhelper (>= 9),
 Build-Conflicts: python-xstatic,
                  python3-xstatic
 Standards-Version: 3.9.8
-Vcs-Browser: https://anonscm.debian.org/cgit/openstack/python-xstatic-tv4.git/
-Vcs-Git: https://anonscm.debian.org/git/openstack/python-xstatic-tv4.git
+Vcs-Browser: https://git.openstack.org/cgit/openstack/deb-python-xstatic-tv4?h=debian%2Fnewton
+Vcs-Git: https://git.openstack.org/openstack/deb-python-xstatic-tv4 -b debian/newton
 Homepage: http://geraintluff.github.com/tv4/
 
 Package: python-xstatic-tv4
