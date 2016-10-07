@@ -8,7 +8,7 @@ UPSTREAM_GIT := https://github.com/robcresswell/xstatic-tv4.git
 
 override_dh_auto_install:
 	pkgos-dh_auto_install
-	rm -rf /usr/lib/python*/dist-packages/*.pth
+	rm -rf $(CURDIR)/debian/python*-xstatic-tv4/usr/lib/python*/dist-packages/*.pth
 
 override_dh_auto_build:
 	yui-compressor -o xstatic/pkg/tv4/data/tv4.min.js xstatic/pkg/tv4/data/tv4.js
